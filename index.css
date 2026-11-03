@@ -769,7 +769,7 @@ nav .navbar {
     text-align: center;
     font-size: 40px;
     margin-bottom: 50px;
-    background: transparent !important;
+    background: transparent;
 }
 
 /* award wrap */
@@ -918,7 +918,7 @@ nav .navbar {
     text-align: center;
     font-size: 40px;
     margin-bottom: 50px;
-    background: transparent !important;
+    background: transparent;
 }
 
 /* hobbies wrap */
@@ -1463,15 +1463,15 @@ nav .navbar {
     /* HOME SECTION */
     .home {
         width: 100%;
-        min-height: auto !important;
-        height: auto !important;
+        min-height: auto;
+        height: auto;
 
-        display: flex !important;
-        flex-direction: column !important;
+        display: flex ;
+        flex-direction: column ;
         justify-content: center;
         align-items: center;
 
-        padding: 45px 20px !important;
+        padding: 45px 20px ;
         gap: 30px;
 
         text-align: center;
@@ -1514,9 +1514,9 @@ nav .navbar {
     }
 
     .home-image img {
-        width: 80% !important;
+        width: 80% ;
         max-width: 300px;
-        height: 330px !important;
+        height: 330px ;
         object-fit: cover;
         margin: 0;
     }
@@ -1525,15 +1525,15 @@ nav .navbar {
     /* KNOW ME SECTION */
     .know-me {
         width: 100%;
-        min-height: auto !important;
-        height: auto !important;
+        min-height: auto ;
+        height: auto ;
 
-        display: flex !important;
-        flex-direction: column !important;
+        display: flex ;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        padding: 45px 20px !important;
+        padding: 45px 20px ;
         gap: 30px;
 
         text-align: center;
@@ -1572,9 +1572,9 @@ nav .navbar {
     }
 
     .know-pic img {
-        width: 90% !important;
+        width: 90% ;
         max-width: 330px;
-        height: auto !important;
+        height: auto ;
         object-fit: cover;
     }
 
@@ -1600,7 +1600,7 @@ nav .navbar {
 @media screen and (max-width: 480px) {
 
     .home {
-        padding: 35px 15px !important;
+        padding: 35px 15px;
     }
 
     .home-text h2 {
@@ -1612,12 +1612,12 @@ nav .navbar {
     }
 
     .home-image img {
-        width: 85% !important;
-        height: 300px !important;
+        width: 85% ;
+        height: 300px ;
     }
 
     .know-me {
-        padding: 35px 15px !important;
+        padding: 35px 15px;
     }
 
     .text h1 {
@@ -1628,122 +1628,10 @@ nav .navbar {
 
 /* otherss responsiveee */
 
-@media screen and (max-width: 768px) {
-
-    .others {
-        width: 100%;
-        min-height: auto !important;
-        padding: 35px 15px !important;
-        box-sizing: border-box;
-    }
-
-    .others-header {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .others-header h1 {
-        font-size: 23px;
-        padding: 12px 20px;
-        margin: 0;
-    }
-
-    .others-container {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        width: 100%;
-        gap: 22px;
-    }
-
-    .quote-card {
-        width: 100%;
-        min-width: 0;
-        min-height: 180px;
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        justify-content: space-between;
-        align-items: center;
-        gap: 12px;
-        padding: 15px;
-        box-sizing: border-box;
-    }
-
-    .quote-text {
-        flex: 1;
-        min-width: 0;
-    }
-
-    .quote-text h2 {
-        font-size: 40px;
-        margin: 0;
-    }
-
-    .quote-text p {
-        font-size: 15px;
-        line-height: 1.5;
-    }
-
-    .polaroid {
-        flex: 0 0 105px;
-        width: 105px;
-        padding: 7px 7px 0;
-        box-sizing: border-box;
-    }
-
-    .polaroid img {
-        width: 100%;
-        height: 105px;
-        object-fit: cover;
-        display: block;
-    }
-
-    .polaroid p {
-        font-size: 20px;
-        margin: 5px;
-    }
-
-    .about-card {
-        width: 100%;
-        min-height: auto;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .about-card h2 {
-        font-size: 20px;
-    }
-
-    .about-card p {
-        font-size: 15px;
-        line-height: 1.7;
-    }
-
-    .footer {
-        width: 100%;
-        height: auto;
-        padding: 20px 12px;
-        box-sizing: border-box;
-        text-align: center;
-    }
-
-    .footer-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .footer-info p {
-        font-size: 12px;
-        overflow-wrap: anywhere;
-    }
-}
-
 @media screen and (max-width: 380px) {
 
     .others {
-        padding: 25px 10px !important;
+        padding: 25px 10px;
     }
 
     .others-header h1 {
@@ -1766,6 +1654,22 @@ nav .navbar {
 
     .polaroid img {
         height: 90px;
+    }
+}
+
+
+/* MOBILE RESS */
+
+@media screen and (max-width: 600px) {
+    .resume-page {
+        padding: 60px 8px 15px;
+    }
+
+    .resume {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
     }
 }
 
